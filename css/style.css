@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+body {
+  display:flex;
+  flex-direction: column;
+  min-width:100%;
+  background-image: url("../img/Your\ paragraph\ text-25.png");
+  background-size:cover ;
+  background-color: lightpink;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul{
+  background-color:#FDB11E;
+  width:100%;
+  list-style: none;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height: auto;
+}
+
+nav li {
+  height: 3.1rem;
+}
+
+nav a {
+  height:100%;
+  text-decoration:none;
+  padding:0 10px;
+  display: flex;
+  align-items:center;
+  color:black;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover{
+  background-color:#C49A5D;
+}
+
+
+.cattext{
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:black;
+  font-size:1rem;
+  background-color:#FDB11E;
+  border-radius: 1rem;
+  padding:2rem;
+}
+
+
+header, footer{
+     background-color:#FDB11E; 
+}
+
+footer{
+  background-color:#FDB11E; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem;
+}
+
+
+h2 {
+  font-family:Arial, Helvetica, sans-serif;
+  color:black;
+  font-size:1.5rem;
+}
+
+
+main {
+  flex-grow:1;
+}
+
+
+@media (max-width: 20rem){
+  header,footer {
+    display: flex;
+  }
+}
+
+@media (max-width: 48rem){
+ .item-two,.item-three,.item-four,.item-five,.item-six {
+    flex-direction:column;
+}
+}
+
+.container{
+height:auto;
+width:auto;
+background-color:wheat;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin:5rem auto;
+border-radius: 0.5rem;
+justify-content: center;
+gap:2rem;
+}
+
+.container1{
+  height:auto;
+  width:auto;
+  background-color:#FFCDCD;
+  display: flex;
+  flex-wrap: wrap;
+  margin:5rem auto;
+  border-radius: 0.5rem;
+  justify-content: center;
+  gap:8rem;
+}
+
+.item-two{
+    margin:1.5rem;
+    height:20rem;
+    width:30rem;
+    border-radius:3rem;
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    align-items: center;
+    flex-basis:30rem ; 
+    
+}
+
+img {
+    height:100%;
+    width:100%;
+    border-radius: 3rem;
+    object-fit: cover;
+}
+
+.container2{
+    height:auto;
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:5rem auto;
+    gap:2rem;
+    border-radius: 0.5rem;
+    justify-content: center;
+}
+
+
+.container3{
+    max-width:100%;
+    max-height:100%;
+    display: flex;
+    flex-direction:row;
+    padding:4%;
+    background-color: #FDB11E;
+    flex-wrap: wrap;
+    margin:5rem auto;
+    border-radius:0.5rem;
+}
+
+.container4{
+  max-width:90%;
+  max-height:100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction:row;
+  background-color:#FDB11E;
+  padding: 4%;
+  flex-wrap: wrap;
+  margin:5rem auto;
+  border-radius:0.5rem;
+}
+
+.item-four{
+    margin:1.5rem;
+    height: 15rem;
+    width:10rem;
+    padding:auto;
+    background-color:#F3FEC2;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    flex-grow: 1;   
+}
+
+.item-five{
+    height:25rem;
+    width:19rem;
+    background-image: url("../img/Your\ paragraph\ text-14.png");
+    background-size:cover;
+    background-position:center; 
+    background-repeat:no-repeat;
+    display: flex;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    border:0.5rem solid #F3FEC2;
+    margin:5rem auto;
+}
+
+
+.item-six{
+  margin:5rem auto;
+  height:30rem;
+  width:20rem;
+  background-image: url("../img/Your\ paragraph\ text-20.png");
+  background-size:cover;
+  background-position:center; 
+  background-repeat:no-repeat;
+  display: flex;
+  border-radius: 1rem;
+  border:0.5rem solid #F3FEC2;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.buttons{
+  background-color: #FDB11E; 
+  color: black;
+  padding: 1rem 2rem; 
+  font-size: 1rem; 
+  border-radius: 1rem; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+.buttons:hover {
+  background-color: #C49A5D; 
+  color: white; 
+}
